@@ -12,7 +12,7 @@
 	"appid": "wx739e97c4261d54d7",
 	"projectname": "WeixinMin",
 	"isGameTourist": false,
-	"condition": {
+	"condition": { 
 		"search": {
 			"current": -1,
 			"list": []
