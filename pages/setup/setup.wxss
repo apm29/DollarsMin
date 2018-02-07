@@ -1,0 +1,84 @@
+/* pages/setup.wxss */
+
+.title {
+  margin-top: 30%;
+  padding-bottom: 20%;
+  background-color: #000;
+  color: #fff;
+  align-content: center;
+  align-items: center
+}
+
+.logo{
+  margin-top: 30px; 
+  background-color: "#000";
+}
+
+.background{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding:0rpx;
+  box-sizing: border-box;
+  background: #000000;
+  
+}
+
+.input_horizontal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  box-sizing: border-box;
+ 
+}
+.input_hidden{
+  
+  margin: auto;
+  text-align: center;
+  width: 100%;
+
+  font-size: 10px;
+  color: #aaa;
+  
+}
+
+.input_round_rect{
+  color: #000;
+  height: 100%;
+  border-radius: 8px;
+  font-size: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+.input_tag{
+  color: #fff;
+  font:italic bold  arial,sans-serif;
+  font-size: 15px;
+  margin-right: 10px;
+  background-color: #000;
+  font-family: sans-serif;
+}
+
+.button_round_rect{
+  color: #fff;
+  height: 100%;
+  border-radius: 15px;
+  font-size: 10px;
+  min-width: 100px;
+  background-color: #000;
+  border-style: outset;
+}
+
+.button_round_rect_hover{
+  color: #fff;
+  height: 100%;
+  border-radius: 15px;
+  font-size: 10px;
+  min-width: 100px;
+  background-color: #666;
+  border-style: outset;
+}
